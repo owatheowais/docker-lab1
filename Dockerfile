@@ -13,7 +13,7 @@ RUN apt-get update \
 WORKDIR /var/projects/rust
 
 # Copy our "Hello, world!" program into the container
-COPY src/main.rs .
+# COPY src/main.rs .
 
 RUN cargo init
 
